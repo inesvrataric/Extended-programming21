@@ -1,0 +1,99 @@
+
+body{
+  font-family: helvetica;
+  color: #FFFFFF;
+  background-color: #444444;
+}
+
+.navigation {
+  overflow: hidden;
+  background-color: #333;
+  }
+  
+.navigation a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  }
+  
+  .navigation a:hover {
+  background-color: #ddd;
+  color: black;
+  }
+  
+  .navigation a.active {
+  background-color: black;
+  color: white;
+  }
+
+  .introduction{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  text-align: center;
+  padding-top: 50px;
+  }
+
+  h1 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 150px;
+  }
+
+  h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+.title{
+  display: block;
+  margin: auto;
+  width: 80%;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.section{
+  display: block;
+  margin: auto;
+  width: 80%;
+  height: 500px;
+  padding: 20px;
+  background-color: #333;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.left{
+  width: 30%;
+    height: 300px;
+    float: left;
+  padding: 20px;
+  padding-left: 10%;
+  text-align: center;
+}
+
+.right{
+  width: 30%;
+    height: 300px;
+    float: right;
+  padding: 20px;
+  padding-right: 10%;
+  text-align: center;
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+}
+
+.city{
+  padding: 40px;
+}

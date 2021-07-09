@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Information</title>
+	<script src="https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.js"></script>
+	<script src="scripts/script.js" defer></script>
+	<link href="https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.css" rel="stylesheet" />
+	<link href="styles/mystyle.css" rel="stylesheet" />
+</head>
+
+<body>
+
+	<div class="navigation">
+		<a href="index.html">Home</a>
+		<a href="map.html">Map</a>
+		<a href="information.html">Information</a>
+	</div>
+
+	<div class="title">
+		<h2>Information</h2>
+	</div>
+
+	<div id="map"></div>
+	<div class="section">
+		<div class="city">
+			<h3>The Hague</h3>
+				<img id="city1-img" class="icon">
+				<div class="weather-description">
+					<span id="description1"></span>
+					<span id="temperature1"></span>
+			</div>
+		</div>
+		<div class="city">
+			<h3>Zagreb</h3>
+				<img id="city2-img" class="icon">
+				<div class="weather-description">
+					<span id="description2"></span>
+					<span id="temperature2"></span>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<script src="script.js"></script>
+
+</body>
+
+</html>
